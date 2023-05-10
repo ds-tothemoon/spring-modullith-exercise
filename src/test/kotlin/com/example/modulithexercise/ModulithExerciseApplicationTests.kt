@@ -1,10 +1,10 @@
-package com.example.monolithexercise
+package com.example.modulithexercise
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class MonolithExerciseApplicationTests {
+class ModulithExerciseApplicationTests {
 
     @Test
     fun contextLoads() {

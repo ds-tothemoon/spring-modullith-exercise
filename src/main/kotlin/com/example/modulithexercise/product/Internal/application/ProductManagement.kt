@@ -1,7 +1,7 @@
-package com.example.modulithexercise.product
+package com.example.modulithexercise.product.Internal.application
 
 import com.example.modulithexercise.logger
-import com.example.modulithexercise.order.OrderCompleted
+import com.example.modulithexercise.common.event.OrderCompleted
 import org.springframework.context.ApplicationEventPublisher
 import org.springframework.scheduling.annotation.Async
 import org.springframework.stereotype.Service
@@ -15,6 +15,7 @@ class ProductManagement(val events: ApplicationEventPublisher) {
     fun on(event: OrderCompleted){
         val orderId = event.orderId
         logger().info("***** product management processing start ******")
+        logger().info("orderId = $orderId")
         Thread.sleep(1000)
         logger().info("***** product management processing end ******")
     }

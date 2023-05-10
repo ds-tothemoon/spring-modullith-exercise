@@ -1,4 +1,4 @@
 package com.example.modulithexercise.common
 
-class DomainEvent {
+interface DomainEvent {
 }

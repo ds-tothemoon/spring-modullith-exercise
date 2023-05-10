@@ -1,7 +1,6 @@
-package com.example.modulithexercise.order.api
+package com.example.modulithexercise.order.internal.presentation
 
-import com.example.modulithexercise.order.OrderManagement
-import org.springframework.http.RequestEntity
+import com.example.modulithexercise.order.internal.application.OrderManagement
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping

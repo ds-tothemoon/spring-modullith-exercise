@@ -1,4 +1,4 @@
-package com.example.modulithexercise.order.external.dto
+package com.example.modulithexercise.common.dto
 
 import java.util.UUID
 

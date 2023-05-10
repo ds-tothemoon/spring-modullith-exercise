@@ -1,19 +1,19 @@
-package com.example.modulithexercise.order.internal
+package com.example.modulithexercise.order.internal.domain
 
-import com.example.modulithexercise.order.OrderIdentifier
-import com.example.modulithexercise.product.Internal.domain.Product
+import com.example.modulithexercise.common.dto.OrderIdentifier
+import jakarta.persistence.Column
 import jakarta.persistence.Entity
 import jakarta.persistence.Id
-import jakarta.persistence.OneToMany
 
 @Entity
 class Order(
-    id: OrderIdentifier,
-    products: Set<Product>
+        id: OrderIdentifier,
+        productId: Long
 ) {
+    @Column
     @Id
     val id: OrderIdentifier = id
 
-    @OneToMany
-    var products: Set<Product> = products
+
+    var productId: Long = productId
 }

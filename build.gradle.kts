@@ -34,6 +34,12 @@ dependencies {
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    implementation("org.springframework.experimental:spring-modulith-api:0.6.0")
+    runtimeOnly("org.springframework.experimental:spring-modulith-core:0.6.0")
+    runtimeOnly("org.springframework.experimental:spring-observability-core:0.6.0")
+    testImplementation("org.springframework.experimental:spring-modulith-test:0.6.0")
+    testImplementation("org.springframework.experimental:spring-modulith-docs:0.6.0")
 }
 
 tasks.withType<KotlinCompile> {

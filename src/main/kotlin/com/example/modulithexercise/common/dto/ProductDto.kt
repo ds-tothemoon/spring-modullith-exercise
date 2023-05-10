@@ -1,4 +1,4 @@
-package com.example.modulithexercise.product.external
+package com.example.modulithexercise.common.dto
 
 import java.math.BigDecimal
 

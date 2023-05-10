@@ -1,4 +1,4 @@
-package com.example.modulithexercise.product.Internal
+package com.example.modulithexercise.product.Internal.domain
 
 import jakarta.persistence.Column
 import jakarta.persistence.Entity

@@ -1,8 +1,7 @@
-package com.example.modulithexercise.product.api
+package com.example.modulithexercise.product.Internal.presentation
 
 import org.springframework.web.bind.annotation.RestController
 
-@RestController("product")
 class ProductController {
 
 }
